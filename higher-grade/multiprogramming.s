@@ -692,7 +692,7 @@ __unhandled_exception:
 	syscall
 	
 	li $v0, 1
-	move $a0, $k0	
+	move $a0, $k1	
 	syscall
 	
 	li $v0, 4
